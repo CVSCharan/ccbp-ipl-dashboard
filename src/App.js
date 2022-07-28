@@ -11,9 +11,9 @@ import NotFound from './components/NotFound'
 const App = () => (
   <Router>
     <Routes>
-      <Route exact path="/" component={Home} />
-      <Route exact path="/team-matches/:id" component={TeamMatches} />
-      <Route component={NotFound} />
+      <Route exact path="/" element={<Home />} />
+      <Route exact path="/team-matches/:id" element={<TeamMatches />} />
+      <Route element={<NotFound />} />
     </Routes>
   </Router>
 )
