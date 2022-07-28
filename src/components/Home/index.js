@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import {Component} from 'react'
 import {TailSpin} from 'react-loader-spinner'
 
 import TeamCard from '../TeamCard'

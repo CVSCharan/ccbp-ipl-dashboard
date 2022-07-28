@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import {Component} from 'react'
 import {TailSpin} from 'react-loader-spinner'
 
 import LatestMatch from '../LatestMatch'
@@ -15,6 +15,7 @@ class TeamMatches extends Component {
   }
 
   componentDidMount() {
+
     this.getTeamMatches()
   }
 
@@ -46,6 +47,7 @@ class TeamMatches extends Component {
         this.getFormattedData(eachMatch),
       ),
     }
+
     this.setState({teamMatchesData: formattedData, isLoading: false})
   }
 
