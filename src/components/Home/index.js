@@ -2,8 +2,8 @@
 
 import {Component} from 'react'
 
-import Loader from 'react-loader-spinner'
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+import {TailSpin} from 'react-loader-spinner'
+
 
 import TeamCard from '../TeamCard'
 
@@ -33,7 +33,7 @@ class Home extends Component {
     const {iplTeamsData, isLoading} = this.state
     const renderPage = isLoading ? (
       <div testid="loader">
-        <Loader type="Oval" color="#ffffff" height={50} width={50} />
+        <TailSpin type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (
       <div className="page">

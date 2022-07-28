@@ -3,8 +3,8 @@ import './index.css'
 
 import {Component} from 'react'
 
-import {Loader} from 'react-loader-spinner'
-import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
+import {TailSpin} from 'react-loader-spinner'
+
 
 import LatestMatch from '../LatestMatch'
 
@@ -70,7 +70,7 @@ class TeamMatches extends Component {
     console.log(recentMatches)
     const renderPage = isLoading ? (
       <div testid="loader">
-        <Loader type="Oval" color="#ffffff" height={50} width={50} />
+        <TailSpin type="Oval" color="#ffffff" height={50} width={50} />
       </div>
     ) : (
       <div className="container">
