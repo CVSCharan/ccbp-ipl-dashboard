@@ -1,0 +1,91 @@
+/* Write your CSS here */
+
+.latest-match {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .logo-img {
+    height: 60%;
+    width: 60%;
+  }
+  
+  .section1 {
+    align-self: flex-start;
+    margin: 10px;
+    width: 35%;
+  }
+  
+  .section2 {
+    align-self: center;
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .section3 {
+    align-self: flex-end;
+    text-align: right;
+    margin: 10px;
+    width: 35%;
+  }
+  
+  .innings {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 17px;
+  }
+  
+  .team {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    margin-top: 60px;
+    font-size: 35px;
+  }
+  
+  .date {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 25px;
+  }
+  
+  .venue {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+  }
+  
+  .result {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 15px;
+  }
+  
+  .first {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 13px;
+  }
+  
+  .second {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 13px;
+  }
+  
+  .man-of-match {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 13px;
+  }
+  
+  .umpires {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 13px;
+  }
+  

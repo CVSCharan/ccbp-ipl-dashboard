@@ -1,0 +1,46 @@
+/* Write your CSS here */
+.match-card {
+    width: 310px;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: #0f172a;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .logo-img {
+    height: 120px;
+    width: 100px;
+  }
+  
+  .heading1 {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 22px;
+  }
+  
+  .para-result {
+    color: #ffffff;
+    font-family: 'Bree Serif';
+    font-size: 17px;
+  }
+  
+  .lost {
+    color: red;
+    font-family: 'Bree Serif';
+    font-size: 17px;
+  }
+  
+  .won {
+    color: green;
+    font-family: 'Bree Serif';
+    font-size: 17px;
+  }
+  

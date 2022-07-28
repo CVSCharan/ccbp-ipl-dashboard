@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.team-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 140px;
+    width: 350px;
+    border-radius: 10px;
+    border: 0.5px solid #ffffff;
+    background-color: #ffffff30;
+    padding: 10px;
+    margin: 10px;
+  }
+  
+  .team-img {
+    height: 80px;
+    width: 80px;
+    margin: 10px;
+  }
+  
+  .team-name {
+    font-family: 'Bree Serif';
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+  }
+  

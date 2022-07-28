@@ -1,0 +1,126 @@
+/* Write your CSS here */
+.banner {
+    margin: 10px;
+    border-radius: 10px;
+    height: 325px;
+    width: 75%;
+    border-width: 0px;
+  }
+  
+  .container {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  
+  .para {
+    font-family: 'Bree Serif';
+    font-size: 20px;
+    color: #ffffff;
+    align-self: flex-start;
+    margin-left: 180px;
+  }
+  
+  .latest-matches {
+    background-color: #1e293b;
+    width: 75%;
+    height: 50%;
+    border-radius: 10px;
+    border-width: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .kxp {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #d91c1f 60%, #1e293b);
+  }
+  
+  .kkr {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #5755a7 60%, #1e293b);
+  }
+  
+  .rcb {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #a4261d 60%, #1e293b);
+  }
+  
+  .rr {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #da237b 60%, #1e293b);
+  }
+  
+  .csk {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #f7db00 60%, #1e293b);
+  }
+  
+  .mi {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #13418b 60%, #1e293b);
+  }
+  
+  .sh {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #f26d22 60%, #1e293b);
+  }
+  
+  .dc {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #4f5db0 60%, #1e293b);
+  }
+  
+  .match-card-container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
